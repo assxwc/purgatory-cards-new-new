@@ -1,0 +1,72 @@
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes revealText {
+	from {
+		clip-path: inset(100% 0 0 0);
+	}
+	to {
+		clip-path: inset(0 0 0 0);
+	}
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeInUp 0.8s forwards;
+}
+
+.hero .reveal-text {
+	animation: revealText 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+.fade-in:nth-child(2) {
+	animation-delay: 0.2s;
+}
+.fade-in:nth-child(3) {
+	animation-delay: 0.4s;
+}
+
+/* Intersection Observer Classes */
+/* Remove ghost card effect */
+.section-reveal {
+	opacity: 1;
+	transform: none;
+	transition: var(--transition-smooth);
+}
+
+.section-reveal.active,
+.no-js .section-reveal {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Floating Embers Effect */
+.embers-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: url("https://www.transparenttextures.com/patterns/stardust.png");
+	opacity: 0.2;
+	z-index: 5;
+	animation: floatEmbers 10s linear infinite;
+}
+
+@keyframes floatEmbers {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 100px -500px;
+	}
+}

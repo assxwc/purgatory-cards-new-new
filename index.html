@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>極致互動 | 個人網站</title>
+	<meta name="description" content="由 AI 資深架構師打造的極致效能互動式個人網站。">
+	<link rel="stylesheet" href="./src/style/design-tokens.css">
+	<link rel="stylesheet" href="./src/style/layout.css">
+	<link rel="stylesheet" href="./src/style/animations.css">
+	<link rel="stylesheet" href="./src/style/cards.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="custom-cursor"></div>
+
+	<header id="main-nav" class="glass-effect">
+		<div class="container">
+			<a href="#" class="logo">PURGATORY.</a>
+			<nav>
+				<ul>
+					<li><a href="#hero">地獄之門</a></li>
+					<li><a href="#card-grid">角色卡牌</a></li>
+					<li><a href="#about">世界觀</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="hero" class="full-screen">
+			<div class="embers-overlay"></div>
+			<div class="container">
+				<h1 class="reveal-text">鍊獄<span class="accent-text">角色誌</span></h1>
+				<p class="fade-in">地獄遊戲卡片資訊系統 | 揭開深淵的真相</p>
+				<div class="cta-group fade-in">
+					<a href="#card-grid" class="btn btn-primary">探索卡牌</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="cards">
+			<div class="container">
+				<h2 class="section-title">魂之卡牌 (Soul Cards)</h2>
+				<div id="character-roster" class="roster-container">
+					<!-- Circular image buttons will be injected here -->
+				</div>
+				<div id="card-grid" class="card-grid">
+					<!-- Cards will be injected here -->
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<h2 class="section-title">世界觀：鍊獄大戰 (The Purgatory War)</h2>
+				<p class="fade-in">地獄領主們在集結推翻萬惡之主 **撒旦** 後，各個都想成為新的萬惡之主，於是乎他們要來一場關乎權力的「**煉獄大戰**」。</p>
+				<p class="fade-in">在這場混亂的權力爭奪中，唯有最強大的靈魂與最陰險的計謀，才能登上帝獄之巔。</p>
+			</div>
+		</section>
+	</main>
+
+	<!-- Detail Modal -->
+	<div id="card-modal" class="modal-overlay">
+		<div id="modal-body" class="modal-content">
+			<!-- Modal content will be injected here -->
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2026 Antigravity Project. Built with passion and AI.</p>
+		</div>
+	</footer>
+
+	<script type="module" src="./src/ts/main.ts"></script>
+</body>
+</html>

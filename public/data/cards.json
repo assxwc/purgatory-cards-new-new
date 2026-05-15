@@ -1,0 +1,54 @@
+[
+	{
+		"id": "vampire",
+		"name": "血裔領主 (Vampire Lord)",
+		"title": "暗夜的嗜血統治者",
+		"image": "/assets/cards/vampire.png",
+		"description": "統治深淵之城的古老吸血鬼，擁有操控血液與陰影的能力。他的存在即是黑暗的化身。",
+		"stats": {
+			"power": 95,
+			"soul": 88,
+			"speed": 92
+		},
+		"ability": "血宴：吸取敵方靈魂，轉化為自身的力量。"
+	},
+	{
+		"id": "werewolf",
+		"name": "狂暴狼王 (Werewolf Alpha)",
+		"title": "銀月下的殺戮者",
+		"image": "/assets/cards/werewolf.png",
+		"description": "荒原的守護者，在紅月升起時展現出無與倫比的原始破壞力。骨骼與肌肉的每一次顫動都代表著死亡。",
+		"stats": {
+			"power": 98,
+			"soul": 65,
+			"speed": 85
+		},
+		"ability": "月嚎：大幅提升附近盟友的攻擊力與狂暴程度。"
+	},
+	{
+		"id": "mummy",
+		"name": "遠古祭司 (Ancient Mummy)",
+		"title": "沙漠的詛咒化身",
+		"image": "/assets/cards/mummy.png",
+		"description": "被禁錮在黃金面具下的不朽靈魂，守護著地獄最深處的秘寶。他的咒語能讓最堅強的戰士灰飛煙滅。",
+		"stats": {
+			"power": 82,
+			"soul": 99,
+			"speed": 40
+		},
+		"ability": "死亡詛咒：使目標陷入永恆的沉睡並持續流失靈魂值。"
+	},
+	{
+		"id": "frankenstein",
+		"name": "鍊金巨獸 (Frankenstein's Beast)",
+		"title": "被遺棄的縫合噩夢",
+		"image": "/assets/cards/frankenstein.png",
+		"description": "瘋狂科學與煉金術的結合產物。由多名戰士的殘肢與雷電能量交織而成，擁有無窮無盡的體力。",
+		"stats": {
+			"power": 92,
+			"soul": 50,
+			"speed": 60
+		},
+		"ability": "雷電過載：向周圍釋放強力電流，造成大範圍麻痺效果。"
+	}
+]

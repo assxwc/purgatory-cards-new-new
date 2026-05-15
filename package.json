@@ -1,0 +1,24 @@
+{
+  "name": "antigravity",
+  "version": "1.0.0",
+  "description": "![Status](https://img.shields.io/badge/Status-In--Development-orange) ![Version](https://img.shields.io/badge/Version-0.1.0-blue) ![Stack](https://img.shields.io/badge/Stack-Vite%20%7C%20TS%20%7C%20Rust--Tools-green)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.15",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13"
+  }
+}
